@@ -12,6 +12,16 @@ body {
     outline: red solid 2px;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+}
 
 .header, .footer {
     background-color: #1f2937;
@@ -21,6 +31,26 @@ body {
 
 .header {
     display: flex;
+    padding: 16px 150px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header .links {
+    display: flex;
+    padding: 2px;
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
 }
 
 .footer {
