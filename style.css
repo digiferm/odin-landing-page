@@ -8,7 +8,7 @@ body {
     flex-direction: column;
   }
 
-* {
+  * {
     outline: red solid 2px;
 }
 
@@ -61,17 +61,46 @@ a {
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    padding: 100px 150px;
+    flex-grow: 1;
+}
+
+.hero-image {
+    flex-basis: 100%;
+}
+
+.hero-textbox {
+    flex-basis: 100%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .information {
     background-color: #1f2937;
+    display: flex;
+    flex-grow: 1;
 }
 
 .quote {
     background-color: #1f2937;
+    display: flex;
+    flex-grow: 1;
 }
 
 .call-to-action {
     background-color: #1f2937;
+    display: flex;
+    flex-grow: 1;
 }
 
