@@ -73,10 +73,13 @@ button {
 
 .hero-image {
     display: flex;
-    flex-basis: 100%;
     background-color: darkgray;
     justify-content: center;
     align-items: center;
+    /* for 1200 x 628 images */
+    max-height: 314px;
+    max-width: 600px;
+    border-radius: 8px;
 }
 
 .hero-image p {
