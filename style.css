@@ -8,9 +8,7 @@ body {
     flex-direction: column;
   }
 
-* {
-    outline: red solid 2px;
-}
+
 
 ul {
     display: flex;
@@ -109,6 +107,49 @@ button {
 .information {
     display: flex;
     flex-grow: 1;
+    padding: 50px 150px 100px;
+    justify-content: center;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 45px;
+}
+
+.information-gallery {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;;
+}
+
+.information-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: #3882f6 4px solid;
+    background-color: grey;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.information-text{
+    display: flex;
+    width: 150px;
+    text-align: center;
+    margin-top: 8px;
+    color: grey;
 }
 
 .quote {
