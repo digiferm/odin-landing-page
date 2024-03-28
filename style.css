@@ -76,6 +76,7 @@ button {
     background-color: darkgray;
     justify-content: center;
     align-items: center;
+    flex-basis: 100%;
     /* for 1200 x 628 images */
     max-height: 314px;
     max-width: 600px;
