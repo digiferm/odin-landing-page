@@ -128,6 +128,23 @@ a {
     display: flex;
     background-color: #e5e7eb;
     padding: 150px 250px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.speaker {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #1f2937;
 }
 
 .cta-outer {
